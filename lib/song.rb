@@ -80,6 +80,7 @@ def self.create_from_filename(name)
     #song_match.artist_name =  "Thundercat"
     #split_file[0] = "Thundercat"
     song_match
+    song_match.save
 end
 
 def self.destroy_all 
